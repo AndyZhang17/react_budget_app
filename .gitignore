@@ -1,3 +1,6 @@
+node_modules
+yarn*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
