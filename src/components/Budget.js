@@ -16,7 +16,7 @@ gray background by adding some text and hard coding a value.
 */
     return (
 <div className = "alert alert-secondary">
-    <span>Budget: {currency}{newBudget}</span>
+    <span>Budget: {currency}{budget}</span>
     <input type="number" step="10" value={newBudget} onChange={handleBudgetChange}></input>
 </div>
     );
